@@ -51,7 +51,7 @@ def start_client(server_ip):
     send_thread.start()
 
 if __name__ == "__main__":
-    role = input("Run as (s)erver or (c)lient? ")
+    role = input("Run as (s)erver or (c)lient ? ")
 
     if role.lower() == 's':
         start_server()
